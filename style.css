@@ -1,11 +1,6 @@
-
+/* Global Styles */
 body {
-   background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   background-color: #f5f5f5;
   display: flex;
   justify-content: center;
@@ -31,6 +26,7 @@ body {
   margin-bottom: 15px;
 }
 
+/* Typography */
 h1 {
   font-size: 1.8rem;
   margin-bottom: 5px;
@@ -55,13 +51,8 @@ h1 {
   font-weight: bold;
   font-size: 0.95rem;
 }
-.social-links a:hover {
-  color: #005582;
-  transform: scale(1.05);
-  transition: all 0.2s ease;
-}
 
-
+/* Skills */
 .skills {
   list-style: none;
   padding: 0;
@@ -77,6 +68,7 @@ h1 {
   font-size: 0.9rem;
 }
 
+/* 🌐 Mobile Responsiveness */
 @media screen and (max-width: 500px) {
   body {
     padding: 10px;
@@ -103,22 +95,10 @@ h1 {
     font-size: 0.85rem;
   }
 
-  .social-links a i {
-  margin-right: 6px;
-  }
-
   .skills li {
     font-size: 0.8rem;
     padding: 6px 10px;
   }
-  .profile-img {
-  border: 3px solid #0077b5;
-  transition: transform 0.3s ease;
-}
-.profile-img:hover {
-  transform: scale(1.1);
-}
-
 }
 
 
