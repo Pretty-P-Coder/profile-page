@@ -1,6 +1,11 @@
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+   background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+  font-family: 'Poppins', sans-serif;
   background-color: #f5f5f5;
   display: flex;
   justify-content: center;
@@ -50,6 +55,12 @@ h1 {
   font-weight: bold;
   font-size: 0.95rem;
 }
+.social-links a:hover {
+  color: #005582;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
 
 .skills {
   list-style: none;
@@ -92,10 +103,22 @@ h1 {
     font-size: 0.85rem;
   }
 
+  .social-links a i {
+  margin-right: 6px;
+  }
+
   .skills li {
     font-size: 0.8rem;
     padding: 6px 10px;
   }
+  .profile-img {
+  border: 3px solid #0077b5;
+  transition: transform 0.3s ease;
+}
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
 }
 
 
