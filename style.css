@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f602c1;
+  display: flex;
+  justify-content: center;
+  padding: 90px;
+  margin: 0;
+}
+.email-link{
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0;
+  background-color: #efc1e5;
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.email-link:hover{
+  background-color: #f602c1;
+}
+
+.profile-card {
+  background: rgb(238, 226, 235);
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.bio {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px 8px;
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+/* Skills */
+.skills {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.skills li {
+  background-color: #e0e0e0;
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+/* 🌐 Mobile Responsiveness */
+@media screen and (max-width: 500px) {
+  body {
+    padding: 10px;
+  }
+
+  .profile-card {
+    padding: 15px;
+  }
+
+  .profile-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .bio {
+    font-size: 0.9rem;
+  }
+
+  .social-links a {
+    font-size: 0.85rem;
+  }
+
+  .skills li {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}
+
