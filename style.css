@@ -1,0 +1,57 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fb5204;
+  display:flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.bio {
+  font-style: italic;
+  color: #777;
+}
+
+.contact p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px 5px;
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.skills li {
+  background-color: #e0e0e0;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
